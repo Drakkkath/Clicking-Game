@@ -1,20 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
   display: flex;
-  height: 95vh;
-  border: 20px solid black;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  height: 100vh;
+  border: 10px solid black;
+  overflow: hidden;
 }
 
 .box {
   height: 200px;
-  width: 200px;
+  width: 300px;
+  flex-grow: 1;
   background-color: blue;
   border: 5px solid gray;
   text-align: center;
-  flex-basis: 20%;
 }
