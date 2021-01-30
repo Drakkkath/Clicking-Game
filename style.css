@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container {
+body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
