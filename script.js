@@ -1,8 +1,5 @@
-// Randomly select a box
-// Change its color
-// Wait a certain time
-// Change its color back to the original one
-// Repeat steps
+// Add event listener to selected box
+// Counter for number of clicked boxes on time
 boxList = document.getElementsByClassName("box");
 
 function toBlue(){
